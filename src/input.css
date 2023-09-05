@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@600;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;0,900;1,200;1,300;1,500&family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.tds-icon{
+    width: 60%;
+}
+  
+@media screen and (max-width: 768px) {
+
+        .btns{
+            @apply  w-[250px];
+        }
+
+    }
+
+@layer components{
+    .nav-item{
+        @apply font-semibold duration-300 hover:bg-slate-500 mr-[10px] py-[5px] px-[10px] rounded-full ;
+    
+    
+  }
+
+}
